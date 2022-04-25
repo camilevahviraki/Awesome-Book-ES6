@@ -13,7 +13,7 @@ const buttonRemove = document.createElement('button');
 const bookLi = document.createElement('div');
 buttonRemove.innerText = 'Remove';
 
-function updateUi() {
+window.addEventListener('load', () => {
   for (let i = 0; i < BookStored.length; i += 1) {
     function assignClass() {
       if (i % 2 === 0) { return 'greyDiv'; } return 'darkDiv';
@@ -30,6 +30,4 @@ function updateUi() {
 
   const RemoveBook = new UserBook();
   RemoveBook.removeBook();
-}
-
-window.addEventListener('load', updateUi);
+});
