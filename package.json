@@ -1,16 +1,31 @@
 {
+  "name": "awesome-book-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
-    "format": "prettier --write \"src/**/*.js\"",
-    "lint": "prettier --check \"src/**/*.js\""
+    "test": "test_app"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilevahviraki/Awesome-Book-ES6.git"
+  },
+  "author": "Camile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilevahviraki/Awesome-Book-ES6/issues"
+  },
+  "homepage": "https://github.com/camilevahviraki/Awesome-Book-ES6#readme",
   "dependencies": {
-    "canvas-confetti": "^1.2.0"
+    "create-snowpack-app": "^1.10.0",
+    "luxon": "^2.3.2"
   },
   "devDependencies": {
-    "prettier": "^2.2.1",
-    "snowpack": "^3.3.7"
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^6.1.11",
+    "snowpack": "^3.8.8"
   }
 }
