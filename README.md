@@ -32,13 +32,6 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@camilevahviraki](https://twitter.com/CamileVahviraki)
 - LinkedIn: [camilevahviraki](https://www.linkedin.com/in/camile-vahviraki-8180a6232/)
 
-👤 **Author2**
-
-
-- GitHub: [@KanoCode](https://github.com/KanoCode)
-- Twitter: [@Kanombola_s](https://twitter.com/Kanombola_s)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kanombola-kanombola-a38b061a4/) 
-
 
 ## 🤝 Contributing
 
