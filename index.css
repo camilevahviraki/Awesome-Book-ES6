@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+p {
+  margin: 5px;
+  font-weight: 600;
+  font-family: lato, sans-serif;
+}
+
+#book-list {
+  width: 96%;
+  border: 3px solid black;
+  position: relative;
+}
+
+.greyDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgb(160, 156, 156);
+  height: 28px;
+  width: 100%;
+}
+
+button {
+  font-family: lato, sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 2px;
+  right: 6px;
+  border: 3px solid black;
+  border-radius: 0;
+  box-shadow: 2px 2px black;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.darkDiv {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  margin: 40px 0;
+  font-size: 30px;
+}
+
+form {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 30px;
+  width: 300px;
+}
+
+form input {
+  border: 3px solid black;
+  margin: 12px 0;
+  width: 100%;
+  height: 25px;
+  font-weight: 700;
+}
+
+form button {
+  position: relative !important;
+}
+
+#formSection {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+#All-Books {
+  width: 96vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-us {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  margin: 40px 0;
+  font-size: 30px;
+}
+
+li {
+  font-family: lato, sans-serif;
+  font-weight: 600;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 2px;
+  width: 96%;
+  border: 2px solid black;
+  padding-left: 18px;
+}
+
+.copyright p {
+  font-size: 22px;
+  margin: 5px;
+  font-weight: 600;
+  font-family: lato, sans-serif;
+  padding-left: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: solid;
+  height: 40px;
+  position: relative;
+  align-items: center;
+  width: 96vw;
+}
+
+.container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav button {
+  cursor: pointer;
+  position: relative;
+  background-color: #fff;
+  margin: 1%;
+  border: none;
+  box-shadow: 0 0 transparent;
+  border-top: none;
+  border-right: 2px solid black;
+  font-size: 20px;
+}
+
+nav > div {
+  position: absolute;
+  display: flex;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.active-btn {
+  color: blue;
+}
+
+#last-modified {
+  position: absolute;
+  right: 4%;
+  top: 70%;
+  font-family: lato, sans-serif;
+  font-size: 18px;
+}
+
+#logo {
+  font-size: 22px;
+  margin: 5px;
+  font-weight: 600;
+  font-family: lato, sans-serif;
+  padding-left: 18px;
+}

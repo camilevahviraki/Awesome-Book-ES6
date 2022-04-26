@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Awesome Book App</title>
+  </head>
+  <body>
+
+    <nav>
+        <span id="logo">Awesome Books</span>
+        <div>
+          <button class="active-btn" id="btn1">List</button>
+          <button id="btn2">Add new</button>
+          <button id="btn3">Contact</button>
+        </div>
+        <h5 id="last-modified"></h5>
+      </nav>
+    <section id="All-Books">
+        <h1>All awesome books</h1>
+        <section id="book-list"></section>
+    </section>
+
+    <section id="formSection">
+        <h2 id="h2_form">Add awesom book</h2>
+        <form action="#">
+            <input
+              type="text"
+              name="book_title"
+              id="book_title"
+              placeholder="Book title"
+            />
+            <br />
+            <input type="text" name="author" id="author" placeholder="Author" />
+            <br />
+            <button type="submit" id="submit">Add</button>
+            <p id="errorMsg"></p>
+          </form>
+    </section>
+    <section id="contact-us">
+        <h2 class="h2-contact">Contact information</h2>
+        <p>Do have any question or you just want to say "Hello"?</p> 
+        <p>You can reach out to us!</p>
+        <ul class="ul-contact">
+            <li>Our email: vegeta@gmail.com</li>
+            <li>Our phone number: 0065793922084</li>
+            <li>Our adress: Streetname 22,85824 city, Country</li>
+        </ul>
+    </section>
+    <section class="copyright">
+        <p>Copyright   ...</p>
+    </section>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
